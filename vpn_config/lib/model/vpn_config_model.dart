@@ -10,7 +10,7 @@ class VpnConfigModel {
     this.server = const [],
   });
 
-  List<Server?> server;
+  List<Server> server;
 
   VpnConfigModel copyWith({
     List<Server>? server,
@@ -25,8 +25,20 @@ class VpnConfigModel {
       );
 
   Map<String, dynamic> toJson() => {
-        "server": List<dynamic>.from(server.map((x) => x?.toJson())),
+        "server": List<dynamic>.from(server.map((x) => x.toJson())),
       };
+
+  Map<String, dynamic> toJsonWithOutConfig() => {
+        "server":
+            List<dynamic>.from(server.map((x) => x.toJsonWithOutConfig())),
+      };
+
+  VpnConfigModel changeConfig(String value) {
+    for (Server element in server) {
+      element = element.copyWith(config: value);
+    }
+    return this;
+  }
 }
 
 class Server {
@@ -61,5 +73,10 @@ class Server {
         "flag": flag,
         "countryName": countryName,
         "config": config,
+      };
+
+  Map<String, dynamic> toJsonWithOutConfig() => {
+        "flag": flag,
+        "countryName": countryName,
       };
 }
