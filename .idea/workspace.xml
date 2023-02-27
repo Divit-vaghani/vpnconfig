@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="870a7c53-6275-488c-9eef-d55b04158cfd" name="Changes" comment="added console project">
-      <change afterPath="$PROJECT_DIR$/vpn_config/files/config.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vpn_config/lib/utils/formatted_print.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vpnconfig.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vpnconfig.iml" afterDir="false" />
+    <list default="true" id="870a7c53-6275-488c-9eef-d55b04158cfd" name="Changes" comment="added auth map generation code.">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.json" beforeDir="false" afterPath="$PROJECT_DIR$/server.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vpn_config/bin/vpn_config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vpn_config/bin/vpn_config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vpn_config/lib/model/vpn_config_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vpn_config/lib/model/vpn_config_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vpn_config/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vpn_config/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vpn_config/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vpn_config/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,17 +43,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
